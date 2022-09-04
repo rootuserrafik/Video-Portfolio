@@ -1,0 +1,7 @@
+.Answers{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+}

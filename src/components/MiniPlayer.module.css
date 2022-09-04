@@ -1,0 +1,41 @@
+.action{
+    width: 20px;
+    height: 20px;
+    background-color: #00FE81;
+    padding: 20px;
+    border-radius: 50%;
+    position: fixed;
+    right: 60px;
+    bottom: 125px;
+    cursor: pointer;
+    z-index: 999;
+}
+.playButton{
+    margin-left: 2px;
+    width: 100%;
+}
+.content{
+    width: 350px;
+    position: fixed;
+    right: 150px;
+    bottom: 110px;
+    z-index: 999;
+}
+.closeWindow{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: 99;
+}
+.closeWindow.show,
+.content.show{
+    display: block;
+}
+.closeWindow.hide,
+.content.hide{
+    display: none;
+}

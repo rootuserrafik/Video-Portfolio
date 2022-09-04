@@ -1,0 +1,19 @@
+.Result{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.questionMark{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.questionMark img{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}

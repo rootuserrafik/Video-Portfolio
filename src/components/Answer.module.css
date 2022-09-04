@@ -1,0 +1,20 @@
+.Answer{
+    background-color: #E8EBF0;
+    padding: 10px;
+    padding-left: 22px;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Answer.wrong{
+    background-color: #FFC0C8;
+}
+.Answer:hover, 
+.Answer.checked, 
+.Answer.right{
+    background-color: #00FE81;
+}
+.Answer h4{
+    font-weight: 100;
+    margin-left: 20px;
+}

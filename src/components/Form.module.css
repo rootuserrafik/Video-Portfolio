@@ -1,0 +1,22 @@
+.singupForm{
+    width: 100%;
+}
+.singupForm div{}
+.singupBtn{
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #03ECFE, #4DADFE);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 26px;
+    color: #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+.forgottxt{
+    text-align: left;
+    padding: 0px 10px;
+}

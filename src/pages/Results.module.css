@@ -1,0 +1,18 @@
+.sectionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.sectionHeader img{
+    height: 300px;
+}
+.sectionHeader h3{
+    margin-left: 100px;
+    font-size: 36px;
+    font-weight: 100;
+    width: 200px;
+}
+.sectionHeading{
+    padding: 30px;
+}

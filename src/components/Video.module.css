@@ -1,0 +1,19 @@
+.videocard{
+    width: 300px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+.cardinfo{
+    border: 1px solid #ddd;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+.cardinfo:hover{
+    background: rgb(245, 245, 245);
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+}

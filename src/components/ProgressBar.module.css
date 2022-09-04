@@ -1,0 +1,40 @@
+.ProgressBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    position: fixed;
+    padding: 20px 10px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+    
+}
+.process{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.step{
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+.step.done{
+    background-color: #00FF7F;
+}
+.processBtn{
+    background-color: #4EACFE;
+    border: 0px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+}
