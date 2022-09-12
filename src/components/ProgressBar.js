@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "./Common/Button";
 import styled from "./ProgressBar.module.css";
 
@@ -16,7 +17,9 @@ function ProgressBar() {
         <span className={styled.step}></span>
       </div>
       {/* Next button */}
-      <Button className={styled.processBtn} text="Next >" />
+      <Link to="/result">
+        <Button className={styled.processBtn} text="Next >" />
+      </Link>
     </div>
   );
 }

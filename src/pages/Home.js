@@ -5,7 +5,7 @@ import styled from "./Home.module.css";
 function Home() {
   return (
     <div className={styled.wrapper}>
-      <Videos />;
+      <Videos />
     </div>
   );
 }
