@@ -5,8 +5,9 @@ import styled from "./Videos.module.css";
 function Videos() {
   return (
     <div className={styled.Videos}>
-      {data.map((data) => (
+      {data.map((data, key) => (
         <Video
+          id={key}
           title={data.title}
           views={data.views}
           date={data.published}

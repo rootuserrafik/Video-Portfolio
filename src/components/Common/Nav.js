@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "./../../assets/images/logo.png";
 import styled from "./Nav.module.css";
 
@@ -6,16 +8,18 @@ function Nav() {
     <nav className={styled.nav}>
       {/* Brand */}
       <div className={styled.brand}>
-        <img className={styled.logo} src={Logo} alt="Brand Logo" />
-        <span className={styled.logotxt}>VPQ.</span>
+        <Link to="/">
+          <img className={styled.logo} src={Logo} alt="Brand Logo" />
+          <span className={styled.logotxt}>VPQ.</span>
+        </Link>
       </div>
       {/* Nav */}
       <ul className={styled.menu}>
         <li>
-          <a href="/#">Login</a>
+          <Link to="/login">Login</Link>
         </li>
         <li>
-          <a href="/#">Signup</a>
+          <Link to="/signup">Signup</Link>
         </li>
       </ul>
     </nav>

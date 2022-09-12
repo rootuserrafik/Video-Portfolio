@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { default as CreateAccount, default as Login } from "./Common/Button";
 import Input from "./Common/Input";
 import styled from "./Form.module.css";
@@ -11,10 +12,12 @@ function FormLog() {
         <Input type="password" label="Password" />
         <div className={styled.action}>
           <Login className={styled.singupBtn} text="Login" />
-          <CreateAccount
-            className={styled.singupBtn}
-            text="Create New Account"
-          />
+          <Link to="/signup">
+            <CreateAccount
+              className={styled.singupBtn}
+              text="Create New Account"
+            />
+          </Link>
         </div>
       </form>
       <p className={styled.forgottxt}>
